@@ -1,0 +1,61 @@
+{
+    "title": "Alice's Adventures in Wonderland", 
+    "sort_title": "Alice's Adventures in Wonderland", 
+    "medium": "Book",
+    "language": "en", 
+    "gutenberg_id": 11, 
+    "work_id": "1e8fcdda-686d-d1e3-5d5a-a7f9b97dd1f6",
+
+    "authors": [
+        {
+            "display_name": "Lewis Carroll", 
+            "lc": "n79056546", 
+            "sort_name": "Carroll, Lewis", 
+            "viaf": "66462036"
+        }
+    ], 
+
+    "epub_file": "gutenberg-generated/11/pg11.epub", 
+    "text_file": "gutenberg/1/11/11.txt", 
+    "html_files": [
+        "gutenberg/1/11/11-h/11-h.htm"
+    ], 
+    "total_file_size": 440746, 
+
+    "quality": 0.825, 
+    "audience": "Adult", 
+    "fiction": true, 
+
+    "subjects": [
+        {
+            "audience": "Adult", 
+            "fiction": true, 
+            "identifier": "Fantasy", 
+            "type": "gutenberg:bookshelf"
+        }, 
+        {
+            "audience": "Adult", 
+            "identifier": "Banned Books from Anne Haight's list", 
+            "type": "gutenberg:bookshelf"
+        }, 
+        {
+            "audience": "Children", 
+            "fiction": true, 
+            "identifier": "PZ", 
+            "name": "Fiction and juvenile belles lettres", 
+            "type": "LCC"
+        }, 
+        {
+            "audience": "Adult", 
+            "fiction": true, 
+            "identifier": "PR", 
+            "name": "English literature", 
+            "type": "LCC"
+        }, 
+        {
+            "identifier": "Fantasy", 
+            "name": "Fantasy", 
+            "type": "LCSH"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<h1>PG Viz</h1>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+var data = data
+function processData(data) { var obj = data.counts;   
+  var newDataSet = [];   
+
+for(var prop in obj) 
+{ newDataSet.push({name: prop, className: prop.toLowerCase(), size: obj[prop]}); } 
+return {children: newDataSet}; } 
+
+var nodes = bubble.nodes(processData(data)) .filter(function(d) { return !d.children; }); 
+
+var vis = svg.selectAll('circle') .data(nodes, 
+function(d) { return d.name; }); vis.enter().append('circle') .attr('transform', 
+function(d) { return 'translate(' + d.x + ',' + d.y + ')'; }) .attr('r', 
+function(d) { return d.r; }) .attr('class', function(d) { return d.className; }); 
+</script>
+#template http://www.pubnub.com/blog/fun-with-d3js-data-visualization-eye-candy-with-streaming-json/#sthash.gdQcbKf9.dpuf
+
